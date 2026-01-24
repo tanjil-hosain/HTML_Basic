@@ -1,0 +1,21 @@
+.man{
+    color: tomato;
+}
+.cos{
+    color: blue;
+}
+.food{
+    color: rgb(84, 3, 109);
+}
+.dress{
+    color: brown;
+}
+li  a {
+    text-decoration: none;
+    color: blue;
+
+}
+.lperf:hover{
+    color: green;
+    background-color: green;
+}
