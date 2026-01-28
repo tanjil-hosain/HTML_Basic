@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        button{
+           background-color: aqua;
+          width: 150px;
+        }
+        button:hover{
+            color: white;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div style="width: 25%; height: 500px; float: left;">
+            <a href="table.html" target="ifram"><button>Table</button></a>
+            <br> <br>
+            <a href="form.html" target="ifram"><button>Form</button></a>
+        </div>
+        <div>
+            <iframe src="form.html" frameborder="0" name="ifram" width="75%" height="500px"></iframe>
+        </div>
+    </div>
+</body>
+</html>
