@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        button{
+            background-color: blue;
+            color: white;
+            width: 150px;
+        }
+        button:hover{
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <div style="float: left; width: 25%; height: 500px; background-color: rgb(243, 147, 91); text-align: center;">
+           <a href="form.html" target="ifrm"> <button>Form</button></a> <br><br>
+           <a href="table.html" target="ifrm"> <button>Table</button></a>
+        </div>
+        <div style="background-color: rgb(210, 243, 243);">
+            <iframe src="form.html" frameborder="0"  name="ifrm" style="width: 75%; height: 500px;"></iframe>
+        </div>
+    </div>
+</body>
+</html>
